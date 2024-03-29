@@ -8,6 +8,7 @@ public class Tc2_clicksports{
   @Test
   public void f() throws InterruptedException 
   {
+	  //hello
 	new Tc1_city();
 	hm=new homePage(Tc1_city.driver);
 	hm.clickSports();
