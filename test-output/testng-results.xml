@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-28T21:00:34 IST" name="Suite" finished-at="2024-03-28T21:01:14 IST" duration-ms="40002">
+    <groups>
+    </groups>
+    <test started-at="2024-03-28T21:00:34 IST" name="Test1" finished-at="2024-03-28T21:00:43 IST" duration-ms="8774">
+      <class name="testCases.Tc1_city">
+        <test-method signature="f()[pri:0, instance:testCases.Tc1_city@3ee37e5a]" started-at="2024-03-28T21:00:34 IST" name="f" finished-at="2024-03-28T21:00:43 IST" duration-ms="8657" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- testCases.Tc1_city -->
+    </test> <!-- Test1 -->
+    <test started-at="2024-03-28T21:00:43 IST" name="Test2" finished-at="2024-03-28T21:00:43 IST" duration-ms="196">
+      <class name="testCases.Tc2_clicksports">
+        <test-method signature="f()[pri:0, instance:testCases.Tc2_clicksports@272113c4]" started-at="2024-03-28T21:00:43 IST" name="f" finished-at="2024-03-28T21:00:43 IST" duration-ms="191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- testCases.Tc2_clicksports -->
+    </test> <!-- Test2 -->
+    <test started-at="2024-03-28T21:00:43 IST" name="Test3" finished-at="2024-03-28T21:00:52 IST" duration-ms="8545">
+      <class name="testCases.Tc3_movies">
+        <test-method signature="test1()[pri:1, instance:testCases.Tc3_movies@3527942a]" started-at="2024-03-28T21:00:43 IST" name="test1" finished-at="2024-03-28T21:00:52 IST" duration-ms="8242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test2()[pri:2, instance:testCases.Tc3_movies@3527942a]" started-at="2024-03-28T21:00:52 IST" name="test2" finished-at="2024-03-28T21:00:52 IST" duration-ms="291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- testCases.Tc3_movies -->
+    </test> <!-- Test3 -->
+    <test started-at="2024-03-28T21:00:52 IST" name="Test4" finished-at="2024-03-28T21:01:14 IST" duration-ms="22215">
+      <class name="testCases.Tc1_city">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:testCases.Tc1_city@3ee37e5a]" started-at="2024-03-28T21:00:18 IST" name="beforeSuite" finished-at="2024-03-28T21:00:34 IST" duration-ms="16333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:testCases.Tc1_city@3ee37e5a]" started-at="2024-03-28T21:01:14 IST" name="afterSuite" finished-at="2024-03-28T21:01:14 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- testCases.Tc1_city -->
+      <class name="testCases.Tc4_clickSignin">
+        <test-method signature="test1()[pri:1, instance:testCases.Tc4_clickSignin@60099951]" started-at="2024-03-28T21:00:52 IST" name="test1" finished-at="2024-03-28T21:00:52 IST" duration-ms="215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test2()[pri:2, instance:testCases.Tc4_clickSignin@60099951]" started-at="2024-03-28T21:00:52 IST" name="test2" finished-at="2024-03-28T21:01:02 IST" duration-ms="10350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test3(java.lang.String)[pri:3, instance:testCases.Tc4_clickSignin@60099951]" started-at="2024-03-28T21:01:02 IST" name="test3" data-provider="dp" finished-at="2024-03-28T21:01:08 IST" duration-ms="5442" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method signature="test4()[pri:4, instance:testCases.Tc4_clickSignin@60099951]" started-at="2024-03-28T21:01:08 IST" name="test4" finished-at="2024-03-28T21:01:14 IST" duration-ms="5902" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method signature="test5()[pri:5, instance:testCases.Tc4_clickSignin@60099951]" started-at="2024-03-28T21:01:14 IST" name="test5" finished-at="2024-03-28T21:01:14 IST" duration-ms="277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+      </class> <!-- testCases.Tc4_clickSignin -->
+    </test> <!-- Test4 -->
+  </suite> <!-- Suite -->
+</testng-results>
